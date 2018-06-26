@@ -41,3 +41,6 @@ index_match=function(samp,d_samp,o_id_cols_array=c("ag","wkn"),l_id_cols_array=c
         return(res)
 
 }
+
+# trim white space
+trim=function (x) gsub("^\\s+|\\s+$", "", x)
